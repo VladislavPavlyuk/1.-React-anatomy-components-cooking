@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>React</title>
+    <!--ЗАДАНИЕ 2. Разработать React-приложение, выводящее информацию о кулинарном рецепте в браузер. 
+      Например, название рецепта, составляющие рецепта (ингредиенты и их количество), последовательность приготовления, 
+      фотография готового блюда. При разработке нужно использовать классовые компоненты и синтаксис JSX.-->
+
+        <!--Для работы сc React необходимы две библиотеки, к оторые мы получаем из CDN.-->
+    <!--Для работы с кроссбраузерными запросами для данных скриптов установлен атрибут crossorigin.-->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+    <!--Для компиляции кода подключается компилятор Babel-->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+        .myLink {display: none}
+        img {
+            width: 100%;
+            text-align: center;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header"></div>
+    <div id="readyDish"></div>
+    <div id="homeVersion"></div>
+    <div id="step1"></div>
+    <div id="step2"></div>
+    <div id="step3"></div>
+    <div id="step4"></div>
+    <div id="step5"></div>
+    <div id="step6"></div>
+    <div id="importantNotes"></div>
+    <div id="serving"></div>
+    <div id="pancakes"></div>
+    <div id="sauce"></div>
+    <div id="wrapping"></div>
+    <div id="soup"></div>
+    <div id="enjoy"></div>
+
+    <script type="text/babel" src="Header.jsx"></script>
+    <script type="text/babel" src="ReadyDish.jsx"></script>
+    <script type="text/babel" src="homeVersion.jsx"></script>
+    <script type="text/babel" src="Step1.jsx"></script>
+    <script type="text/babel" src="Step2.jsx"></script>
+    <script type="text/babel" src="Step3.jsx"></script>
+    <script type="text/babel" src="Step4.jsx"></script>
+    <script type="text/babel" src="Step5.jsx"></script>
+    <script type="text/babel" src="Step6.jsx"></script>
+    <script type="text/babel" src="ImportantNotes.jsx"></script>
+    <script type="text/babel" src="Serving.jsx"></script>
+    <script type="text/babel" src="Pancakes.jsx"></script>
+    <script type="text/babel" src="Sauce.jsx"></script>
+    <script type="text/babel" src="Wrapping.jsx"></script>
+    <script type="text/babel" src="Soup.jsx"></script>
+    <script type="text/babel" src="Enjoy.jsx"></script>
+
+    <script type="text/babel">
+        "use strict"; 
+
+        const rootNode1 = document.getElementById("header");   
+        const root1 = ReactDOM.createRoot(rootNode1);
+        root1.render(
+            <React.StrictMode>
+                <Header />
+            </React.StrictMode>
+        );
+
+        const rootNode2 = document.getElementById("readyDish");   
+        const root2 = ReactDOM.createRoot(rootNode2);
+        root2.render(
+            <React.StrictMode>
+                <ReadyDish />
+            </React.StrictMode>
+         );
+
+        const rootNode3 = document.getElementById("homeVersion");   
+        const root3 = ReactDOM.createRoot(rootNode3);
+        root3.render(
+            <React.StrictMode>
+                <HomeVersion/>
+            </React.StrictMode>          
+         );
+
+        const rootNode4 = document.getElementById("step1");   
+        const root4 = ReactDOM.createRoot(rootNode4);
+        root4.render(
+            <React.StrictMode>
+                <Step1/>
+            </React.StrictMode>          
+         );
+
+         const rootNode5 = document.getElementById("step2");   
+        const root5 = ReactDOM.createRoot(rootNode5);
+        root5.render(
+            <React.StrictMode>
+                <Step2/>
+            </React.StrictMode>          
+         );
+
+         const rootNode6 = document.getElementById("step3");   
+        const root6 = ReactDOM.createRoot(rootNode6);
+        root6.render(
+            <React.StrictMode>
+                <Step3/>
+            </React.StrictMode>          
+         );
+
+         const rootNode7 = document.getElementById("step4");   
+        const root7 = ReactDOM.createRoot(rootNode7);
+        root7.render(
+            <React.StrictMode>
+                <Step4/>
+            </React.StrictMode>          
+         );
+
+         const rootNode8 = document.getElementById("step5");   
+        const root8 = ReactDOM.createRoot(rootNode8);
+        root8.render(
+            <React.StrictMode>
+                <Step5/>
+            </React.StrictMode>          
+         );
+
+         const rootNode9 = document.getElementById("step6");   
+        const root9 = ReactDOM.createRoot(rootNode9);
+        root9.render(
+            <React.StrictMode>
+                <Step6/>
+            </React.StrictMode>          
+         );
+
+         const rootNode10 = document.getElementById("importantNotes");   
+        const root10 = ReactDOM.createRoot(rootNode10);
+        root10.render(
+            <React.StrictMode>
+                <ImportantNotes/>
+            </React.StrictMode>          
+         );
+
+         const rootNode11 = document.getElementById("serving");   
+        const root11 = ReactDOM.createRoot(rootNode11);
+        root11.render(
+            <React.StrictMode>
+                <Serving/>
+            </React.StrictMode>          
+         );
+
+         const rootNode12 = document.getElementById("pancakes");   
+        const root12 = ReactDOM.createRoot(rootNode12);
+        root12.render(
+            <React.StrictMode>
+                <Pancakes/>
+            </React.StrictMode>          
+         );
+
+         const rootNode13 = document.getElementById("sauce");   
+        const root13 = ReactDOM.createRoot(rootNode13);
+        root13.render(
+            <React.StrictMode>
+                <Sauce/>
+            </React.StrictMode>          
+         );
+
+         const rootNode14 = document.getElementById("wrapping");   
+        const root14 = ReactDOM.createRoot(rootNode14);
+        root14.render(
+            <React.StrictMode>
+                <Wrapping/>
+            </React.StrictMode>          
+         );
+
+         const rootNode15 = document.getElementById("soup");   
+        const root15 = ReactDOM.createRoot(rootNode15);
+        root15.render(
+            <React.StrictMode>
+                <Soup/>
+            </React.StrictMode>          
+         );
+
+         const rootNode16 = document.getElementById("enjoy");   
+        const root16 = ReactDOM.createRoot(rootNode16);
+        root16.render(
+            <React.StrictMode>
+                <Enjoy/>
+            </React.StrictMode>          
+         );
+
+    </script>
+</body>
+</html>
