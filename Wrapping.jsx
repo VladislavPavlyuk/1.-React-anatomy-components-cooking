@@ -1,7 +1,8 @@
 class Wrapping extends React.Component {
   render() {
-    let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/wrap-peking-duck-with-pancake.jpg';
-    
+    //let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/wrap-peking-duck-with-pancake.jpg';
+    let pic = './assets/pics/wrap-peking-duck-with-pancake.jpg';
+
       return <div>
         <h2>HOW TO WRAP?</h2>
 

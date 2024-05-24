@@ -1,9 +1,10 @@
 class Serving extends React.Component {
   render() {
-    let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/peking-duck-over-a-pancakes--1367x2048.jpg';
+    //let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/peking-duck-over-a-pancakes--1367x2048.jpg';
+    let pic = './assets/pics/peking-duck-over-a-pancakes--1367x2048.jpg';
 
       return <div>
-        <h2>WHAT TO SERVE WITH</h2>
+        <h2>WHAT TO SERVE WITH?</h2>
   
         <img src={pic} alt="WHAT TO SERVE WITH?" />
         

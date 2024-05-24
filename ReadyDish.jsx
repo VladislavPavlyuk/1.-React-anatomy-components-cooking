@@ -1,6 +1,8 @@
 class ReadyDish extends React.Component {
   render() {
-    let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/sliced-peking-duck-1367x2048.jpg';
+    //let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/sliced-peking-duck-1367x2048.jpg';
+    let pic = './assets/pics/sliced-peking-duck-1367x2048.jpg';
+
       return <div>
         <p>A legendary dish made easy, this Peking duck recipe doesn’t require any special equipment or advanced skill. But it still tastes so satisfying!</p>
         <img src={pic} alt="Ready dish" />

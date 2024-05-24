@@ -1,7 +1,9 @@
 class Step2 extends React.Component {
   render() {
     
-    let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/pouring-hot-water-over-duck-1536x1036.jpg';
+    //let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/pouring-hot-water-over-duck-1536x1036.jpg';
+    let pic = './assets/pics/pouring-hot-water-over-duck-1536x1036.jpg';
+
       return <div>
 
         <h2>STEP 2: TIGHTEN THE DUCK SKIN.</h2>        

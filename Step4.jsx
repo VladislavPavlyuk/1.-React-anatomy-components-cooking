@@ -1,7 +1,9 @@
 class Step4 extends React.Component {
   render() {
     
-    let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/rubbing-salt-over-duck-1536x1025.jpg';
+    //let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/rubbing-salt-over-duck-1536x1025.jpg';
+    let pic = './assets/pics/rubbing-salt-over-duck-1536x1025.jpg';
+
       return <div>
 
         <h2>STEP 4: AIR DRY THE DUCK</h2>        

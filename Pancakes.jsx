@@ -1,7 +1,7 @@
 class Pancakes extends React.Component {
   render() {
-    let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/peking-duck-pancakes-1536x864.jpg';
-    
+    //let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/peking-duck-pancakes-1536x864.jpg';
+    let pic = './assets/pics/peking-duck-pancakes-1536x864.jpg';
       return <div>
         <h2>THE PANCAKES</h2>
   

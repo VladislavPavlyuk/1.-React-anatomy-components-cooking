@@ -1,9 +1,11 @@
 class Step3 extends React.Component {
   render() {
     
-    let pic1 = 'https://redhousespice.com/wp-content/uploads/2022/01/dilute-maltose-with-water-1536x1025.jpg';
-    
-    let pic2 = 'https://redhousespice.com/wp-content/uploads/2022/01/brushing-syrup-over-duck-1536x1025.jpg';
+    //let pic1 = 'https://redhousespice.com/wp-content/uploads/2022/01/dilute-maltose-with-water-1536x1025.jpg';
+    let pic1 = './assets/pics/dilute-maltose-with-water-1536x1025.jpg';
+    //let pic2 = 'https://redhousespice.com/wp-content/uploads/2022/01/brushing-syrup-over-duck-1536x1025.jpg';
+    let pic2 = './assets/pics/brushing-syrup-over-duck-1536x1025.jpg';
+
       return <div>
         <h2>STEP 3: COAT THE SKIN WITH SYRUP.</h2>       
 

@@ -1,7 +1,8 @@
 class Sauce extends React.Component {
   render() {
-    let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/frying-sweet-bean-sauce-1536x1025.jpg';
-    
+    //let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/frying-sweet-bean-sauce-1536x1025.jpg';
+    let pic = './assets/pics/frying-sweet-bean-sauce-1536x1025.jpg';
+
       return <div>
         <h2>THE SAUCE</h2>
 

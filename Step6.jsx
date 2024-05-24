@@ -1,8 +1,12 @@
 class Step6 extends React.Component {
   render() {
     
-    let pic1 = 'https://redhousespice.com/wp-content/uploads/2022/01/roast-duck-in-the-oven-1536x1057.jpg';
-    let pic2 = 'https://redhousespice.com/wp-content/uploads/2022/01/roast-peking-duck-1367x2048.jpg';
+    //let pic1 = 'https://redhousespice.com/wp-content/uploads/2022/01/roast-duck-in-the-oven-1536x1057.jpg';
+    let pic1 = './assets/pics/roast-duck-in-the-oven-1536x1057.jpg';
+
+    //let pic2 = 'https://redhousespice.com/wp-content/uploads/2022/01/roast-peking-duck-1367x2048.jpg';
+    let pic2 = './assets/pics/roast-peking-duck-1367x2048.jpg';
+
       return <div>      
 
         <h2>ROAST IN TWO STAGES</h2>

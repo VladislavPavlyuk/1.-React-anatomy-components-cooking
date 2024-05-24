@@ -1,6 +1,7 @@
 class HomeVersion extends React.Component {
   render() {
-    let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/roast-peking-duck-with-pancakes-1-1-1367x2048.jpg';
+    //let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/roast-peking-duck-with-pancakes-1-1-1367x2048.jpg';
+    let pic = './assets/pics/roast-peking-duck-with-pancakes-1-1-1367x2048.jpg';
       return <div>
         <h2>AN EASY HOME VERSION</h2>
   

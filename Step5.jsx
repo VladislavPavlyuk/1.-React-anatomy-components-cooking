@@ -1,8 +1,9 @@
 class Step5 extends React.Component {
   render() {
     
-    let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/duck-and-stuffing-1536x1025.jpg';
-    
+    //let pic = 'https://redhousespice.com/wp-content/uploads/2022/01/duck-and-stuffing-1536x1025.jpg';
+    let pic = './assets/pics/duck-and-stuffing-1536x1025.jpg';
+
       return <div>
 
         <h2>HOW TO ROAST THE DUCK?</h2>        
